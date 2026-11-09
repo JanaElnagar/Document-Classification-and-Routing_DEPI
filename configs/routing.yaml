@@ -1,0 +1,12 @@
+# Category -> department. Edit this file to change routing; no retraining needed (NFR8).
+# threshold: predictions with calibrated confidence below this go to manual review.
+# Placeholder value: Member 6 tunes it on the validation set (FR15).
+threshold: 0.70
+review_queue: Manual Review
+routes:
+  Application: HR / Admissions
+  Complaint: Customer Service
+  Invoice: Finance (Accounts Payable)
+  Contract: Legal
+  Request: Operations service desk
+  Correspondence: Records / General Administration

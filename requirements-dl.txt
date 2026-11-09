@@ -1,0 +1,5 @@
+# deep learning models (LSTM, Transformer); install on Kaggle/Colab with a GPU
+-r requirements.txt
+torch>=2.1
+transformers>=4.40
+datasets>=2.18
